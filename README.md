@@ -45,15 +45,19 @@ This model provided the best balance between recall and precision while maintain
 
 🚀 7. Deployment
 The final model was deployed using Hugging Face Spaces with an interactive user interface:
+
 🔗 https://huggingface.co/spaces/federicasanti/skin-cancer-detection 
 Users can upload a skin lesion image and receive a real-time prediction (⚠️ Warning: this model is for educational and research purposes only. It does not in any way replace a professional medical diagnosis). 
 
 🛠️ Main Technologies Used
+
 Python:
+
 -Numpy
 -Pandas
 -TensorFlow
 -Sckit-learn
+
 Hugging Face
 
 🚀 Future Work
