@@ -29,7 +29,7 @@ Models were evaluated based on:
 - Precision
 - Recall for malignant cases (primary metric)
 
-We are working on a medical classification task, therefore high recall for malignant cases is critical to reduce false negatives.
+⚠️ We are working on a medical classification task, therefore high recall for malignant cases is critical to reduce false negatives.
 
 🔬 5. Hyperparameter Optimization
 
@@ -51,7 +51,8 @@ This model provided the best balance between recall and precision while maintain
 
 The final model was deployed using Hugging Face Spaces with an interactive user interface:
 
-🔗 https://huggingface.co/spaces/federicasanti/skin-cancer-detection 
+🔗 https://huggingface.co/spaces/federicasanti/skin-cancer-detection
+
 Users can upload a skin lesion image and receive a real-time prediction (⚠️ Warning: this model is for educational and research purposes only. It does not in any way replace a professional medical diagnosis). 
 
 🛠️ Main Technologies Used
