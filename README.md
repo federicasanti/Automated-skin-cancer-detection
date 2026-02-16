@@ -47,7 +47,7 @@ The best-performing model was:
 
 🥇 EfficientNetB0 : 
 
-- 96.79% Recall (Malignant cases)
+- 96.79% Recall in malignant cases
 - 95.75% Overall Precision
 
 This model provided the best balance between recall and precision while maintaining strong generalization performance.
