@@ -4,20 +4,25 @@ Developement of an end-to-end deep learning pipeline for skin lesion classificat
 Dataset & Sources
 Data source and link: https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset
 Dataset size: 12,304 labeled images (Benign and Malignant)​
+
 🚀 Main steps to develope an end-to-end deep learning pipeline for skin lesion classification (benign vs malignant).
+
 📊 1. Dataset Collection
 - Collected and organized labeled dermoscopic images of skin lesions: (benign vs. malignant)
 - Ensured clean dataset structure and balanced dataset.
+
 🖼️ 2. Image Preprocessing & Data Augmentation
 - Image resizing to fixed input dimensions (64x64)
 - Pixel normalization
 - Augmentation techniques during training to reduce overfitting (random horizontal/vertical flips, random rotations, zoom transformations)
+
 🤖 3. Model Development (TensorFlow / Keras)
 Implemented and compared multiple CNN architectures:
 - Custom Sequential CNN
 - VGG16 (transfer learning)
 - EfficientNetB0 (transfer learning)
 Each model was trained for multiple epochs and evaluated using consistent validation splits
+
 📈 4. Model Evaluation
 Models were evaluated based on:
 - Accuracy
@@ -25,16 +30,19 @@ Models were evaluated based on:
 - Precision
 - Recall for malignant cases (primary metric)
 We are working on a medical classification task, therefore high recall for malignant cases is critical to reduce false negatives.
+
 🔬 5. Hyperparameter Optimization
 Performed systematic tuning of:
 - Learning rate
 - Numebr of epochs
+
 🏆 6. Best Model Selection
 The best-performing model was:
 🥇 EfficientNetB0 : 
 - 96.79% Recall (Malignant cases)
 - 95.75% Overall Precision
 This model provided the best balance between recall and precision while maintaining strong generalization performance.
+
 🚀 7. Deployment
 The final model was deployed using Hugging Face Spaces with an interactive user interface:
 🔗 https://huggingface.co/spaces/federicasanti/skin-cancer-detection 
