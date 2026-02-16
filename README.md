@@ -9,6 +9,7 @@ Development of an end-to-end deep learning pipeline for skin lesion classificati
 - Ensured clean dataset structure and balanced dataset.
 
 🖼️ 2. Image Preprocessing & Data Augmentation
+
 - Image resizing to fixed input dimensions (64x64)
 - Pixel normalization
 - Augmentation techniques during training to reduce overfitting (random horizontal/vertical flips, random rotations, zoom transformations)
@@ -19,11 +20,13 @@ Implemented and compared multiple CNN architectures:
 - Custom Sequential CNN
 - VGG16 (transfer learning)
 - EfficientNetB0 (transfer learning)
+
 Each model was trained for multiple epochs and evaluated using consistent validation splits
 
 📈 4. Model Evaluation
 
 Models were evaluated based on:
+
 - Accuracy
 - Loss
 - Precision
@@ -34,6 +37,7 @@ Models were evaluated based on:
 🔬 5. Hyperparameter Optimization
 
 Performed systematic tuning of:
+
 - Learning rate
 - Number of epochs
 
