@@ -32,7 +32,7 @@ Models were evaluated based on:
 - Precision
 - Recall for malignant cases (primary metric)
 
-⚠️ We are working on a medical classification task, therefore high recall for malignant cases is critical to reduce false negatives.
+⚠️ We are working on a medical classification, therefore high recall for malignant cases is critical to reduce false negatives.
 
 🔬 5. Hyperparameter Optimization
 
