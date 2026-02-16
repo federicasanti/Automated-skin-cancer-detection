@@ -14,6 +14,7 @@ Developement of an end-to-end deep learning pipeline for skin lesion classificat
 - Augmentation techniques during training to reduce overfitting (random horizontal/vertical flips, random rotations, zoom transformations)
 
 🤖 3. Model Development (TensorFlow / Keras)
+
 Implemented and compared multiple CNN architectures:
 - Custom Sequential CNN
 - VGG16 (transfer learning)
@@ -21,6 +22,7 @@ Implemented and compared multiple CNN architectures:
 Each model was trained for multiple epochs and evaluated using consistent validation splits
 
 📈 4. Model Evaluation
+
 Models were evaluated based on:
 - Accuracy
 - Loss
@@ -30,11 +32,13 @@ Models were evaluated based on:
 We are working on a medical classification task, therefore high recall for malignant cases is critical to reduce false negatives.
 
 🔬 5. Hyperparameter Optimization
+
 Performed systematic tuning of:
 - Learning rate
 - Numebr of epochs
 
 🏆 6. Best Model Selection
+
 The best-performing model was:
 🥇 EfficientNetB0 : 
 - 96.79% Recall (Malignant cases)
@@ -42,6 +46,7 @@ The best-performing model was:
 This model provided the best balance between recall and precision while maintaining strong generalization performance.
 
 🚀 7. Deployment
+
 The final model was deployed using Hugging Face Spaces with an interactive user interface:
 
 🔗 https://huggingface.co/spaces/federicasanti/skin-cancer-detection 
