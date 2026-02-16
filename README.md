@@ -1,8 +1,8 @@
 # Automated-skin-cancer-detection
-Developement of an end-to-end deep learning pipeline for skin lesion classification (benign vs malignant).
+Development of an end-to-end deep learning pipeline for skin lesion classification (benign vs malignant).
 ​
 
-🚀 Main steps to develope an end-to-end deep learning pipeline for skin lesion classification (benign vs malignant)
+🚀 Main steps to develop an end-to-end deep learning pipeline for skin lesion classification (benign vs malignant)
 
 📊 1. Dataset Collection
 - Collected and organized labeled dermoscopic images of skin lesions: (benign vs. malignant) (https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset)
