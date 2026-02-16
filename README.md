@@ -63,13 +63,13 @@ Users can upload a skin lesion image and receive a real-time prediction (⚠️ 
 
 Python:
 
--Numpy
+- Numpy
 
--Pandas
+- Pandas
 
--TensorFlow
+- TensorFlow
 
--Sckit-learn
+- Sckit-learn
 
 Hugging Face
 
