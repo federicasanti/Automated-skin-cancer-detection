@@ -35,7 +35,7 @@ Models were evaluated based on:
 
 Performed systematic tuning of:
 - Learning rate
-- Numebr of epochs
+- Number of epochs
 
 🏆 6. Best Model Selection
 
