@@ -63,8 +63,5 @@ Python:
 
 Hugging Face
 
-🚀 Future Work
-Train the model on a bigger data set 
-
 📧 Contact
 email: federica.santi1997@gmail.com
