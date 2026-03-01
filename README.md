@@ -10,7 +10,7 @@ Development of an end-to-end deep learning pipeline for skin lesion classificati
 
 🖼️ 2. Image Preprocessing & Data Augmentation
 
-- Image resizing to fixed input dimensions (64x64)
+- Image resizing to fixed input dimensions (128x128)
 - Pixel normalization
 - Augmentation techniques during training to reduce overfitting (random horizontal/vertical flips, random rotations, zoom transformations)
 
