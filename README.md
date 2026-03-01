@@ -34,14 +34,8 @@ Models were evaluated based on:
 
 ⚠️ We are working on a medical classification, therefore high recall for malignant cases is critical to reduce false negatives.
 
-🔬 5. Hyperparameter Optimization
 
-Performed systematic tuning of:
-
-- Learning rate
-- Number of epochs
-
-🏆 6. Best Model Selection
+🏆 5. Best Model Selection
 
 The best-performing model was:
 
@@ -64,15 +58,13 @@ Users can upload a skin lesion image and receive a real-time prediction (⚠️ 
 
 Python:
 
-- Numpy
-
-- Pandas
-
 - TensorFlow
 
 - Sckit-learn
 
 Hugging Face
+
+Google Colab
 
 📧 Contact
 email: federica.santi1997@gmail.com
