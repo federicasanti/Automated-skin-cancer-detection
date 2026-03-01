@@ -1,4 +1,4 @@
-# Automated-skin-cancer-detection
+# Automated-skin-cancer-detection using deep learning
 Development of an end-to-end deep learning pipeline for skin lesion classification (benign vs malignant).
 ​
 
